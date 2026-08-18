@@ -1,0 +1,7 @@
+# robots.txt — Espace Solidarité Guinée
+# Association loi 1901 — RNA W932014102
+
+User-agent: *
+Allow: /
+
+Sitemap: https://espacesolidaireguinee.github.io/sitemap.xml
