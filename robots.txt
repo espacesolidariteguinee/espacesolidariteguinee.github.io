@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://espacesolidaireguinee.github.io/sitemap.xml
+Sitemap: https://espacesolidariteguinee.github.io/sitemap.xml

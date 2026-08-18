@@ -10,9 +10,9 @@ Aucun outil technique n'est nécessaire pour le modifier : ce sont de simples fi
 Durée : environ 15 minutes. Coût : 0 €. Aucune carte bancaire.
 
 1. **Créez un compte GitHub** sur [github.com](https://github.com).
-   Le compte de l'association est `espacesolidaireguinee` : c'est lui qui donne l'adresse du site.
+   Le compte de l'association est `espacesolidariteguinee` : c'est lui qui donne l'adresse du site.
 2. Une fois connecté, cliquez sur le **+** en haut à droite → **New repository**.
-3. Nommez le dépôt **exactement** : `espacesolidaireguinee.github.io`
+3. Nommez le dépôt **exactement** : `espacesolidariteguinee.github.io`
    (c'est-à-dire `VOTRE-NOM-UTILISATEUR.github.io`).
 4. Cochez **Public**, puis **Create repository**.
 5. Sur la page qui s'affiche, cliquez sur **uploading an existing file**.
@@ -25,7 +25,7 @@ Durée : environ 15 minutes. Coût : 0 €. Aucune carte bancaire.
    Sous *Build and deployment* → *Source*, choisissez **Deploy from a branch**,
    branche **main**, dossier **/ (root)**, puis **Save**.
 9. Patientez 1 à 3 minutes. Votre site est en ligne à l'adresse :
-   **https://espacesolidaireguinee.github.io**
+   **https://espacesolidariteguinee.github.io**
 
 > Le fichier `.nojekyll` est indispensable : ne le supprimez pas.
 
@@ -36,20 +36,20 @@ Durée : environ 15 minutes. Coût : 0 €. Aucune carte bancaire.
 
 ## 2. Connecter un vrai nom de domaine plus tard
 
-Exemple avec `espacesolidariteguinee.org` ou `espacesolidaireguinee.org` (environ 10 à 15 € par an chez OVH, Gandi, Infomaniak…).
+Exemple avec `espacesolidariteguinee.org` ou `espacesolidariteguinee.org` (environ 10 à 15 € par an chez OVH, Gandi, Infomaniak…).
 
 1. Achetez le domaine chez le registrar de votre choix.
 2. Dans la zone DNS du registrar, créez :
    - 4 enregistrements **A** pour `@` pointant vers : `185.199.108.153`, `185.199.109.153`,
      `185.199.110.153`, `185.199.111.153`
-   - 1 enregistrement **CNAME** pour `www` pointant vers `espacesolidaireguinee.github.io`
+   - 1 enregistrement **CNAME** pour `www` pointant vers `espacesolidariteguinee.github.io`
 3. Dans GitHub : **Settings → Pages → Custom domain**, saisissez votre domaine, puis **Save**.
    Cochez ensuite **Enforce HTTPS** (le certificat est gratuit et automatique).
 4. **Important pour Google** : remplacez l'ancienne adresse par la nouvelle partout dans le site.
    Ouvrez un terminal dans le dossier du site et lancez :
 
    ```bash
-   grep -rl "espacesolidaireguinee.github.io" . | xargs sed -i 's|espacesolidaireguinee.github.io|espacesolidariteguinee.org|g'
+   grep -rl "espacesolidariteguinee.github.io" . | xargs sed -i 's|espacesolidariteguinee.github.io|espacesolidariteguinee.org|g'
    ```
 
    Sinon, faites un simple « Rechercher / Remplacer » dans un éditeur de texte sur tous les fichiers
@@ -153,7 +153,7 @@ budget prévisionnel, montant collecté, état d'avancement, photos, résultats 
 
 1. Allez sur [search.google.com/search-console](https://search.google.com/search-console).
 2. Connectez-vous avec un compte Google et choisissez **Préfixe d'URL**.
-3. Saisissez l'adresse complète du site (ex. `https://espacesolidaireguinee.github.io`).
+3. Saisissez l'adresse complète du site (ex. `https://espacesolidariteguinee.github.io`).
 4. Méthode de validation : choisissez **Balise HTML**. Google vous donne une ligne du type
    `<meta name="google-site-verification" content="xxxxx">`.
 5. Collez cette ligne dans `index.html`, juste après `<head>`. **Commit changes**, attendez
