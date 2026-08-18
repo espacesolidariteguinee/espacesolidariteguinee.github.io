@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Logo Espace Solidarité Guinée">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#186a51"/>
+      <stop offset="1" stop-color="#0d3b2e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#g1)"/>
+  <!-- Goutte d'eau -->
+  <path d="M50 20c0 0-13 15.5-13 24.2A13 13 0 0 0 63 44.2C63 35.5 50 20 50 20z" fill="#e5a11c"/>
+  <!-- Mains protectrices -->
+  <path d="M24 58c0-2.6 2.2-4.6 4.8-4.3 3 .3 5.6 2.1 7.7 4.4l7.9 8.6c1 1.1 2.4 1.7 3.9 1.7h3.4c1.5 0 2.9-.6 3.9-1.7l7.9-8.6c2.1-2.3 4.7-4.1 7.7-4.4 2.6-.3 4.8 1.7 4.8 4.3 0 1.5-.6 2.9-1.7 4L63.4 76.5c-2.9 3-6.9 4.8-11.1 4.8h-4.6c-4.2 0-8.2-1.8-11.1-4.8L25.7 62c-1.1-1.1-1.7-2.5-1.7-4z" fill="#ffffff" opacity=".95"/>
+</svg>
